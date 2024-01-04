@@ -47,3 +47,15 @@
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 [<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+
+############# How to installed Gatsby Framework
+Gatsby CLI 설치 command 입력
+npm i -g gatsby-cli
+
+원하는 경로로 이동 후 command 입력
+gatsby new
+
+cd 경로 이동
+code .
+실행
+npm run develop
