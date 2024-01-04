@@ -59,3 +59,30 @@ cd 경로 이동
 code .
 실행
 npm run develop
+
+###
+
+https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/?=filesystem
+npm install gatsby-source-filesystem
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/blog-posts`,
+      },
+    },
+
+graphql에서 파일 시스템 가져오기
+->
+
+ <!-- 
+ query MyQuery {
+  allFile {
+    nodes {
+      name
+    }
+  }
+} 
+-->
+
+http://localhost:8000/\_\_\_graphql

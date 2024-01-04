@@ -7,8 +7,6 @@ interface ILayoutProps {
 }
 
 export default function Layout({ children, title }: ILayoutProps) {
-  console.log(children);
-  console.log(title);
   return (
     <div>
       <nav>
