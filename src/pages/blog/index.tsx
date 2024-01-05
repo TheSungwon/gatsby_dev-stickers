@@ -14,14 +14,15 @@ function Blog({
     <Layout title="Blog">
       <section>
         {nodes.map((file, index) => (
-          <Link to={`/blog/${file.frontmatter?.slug}`}>
-            <article key={index}>
+          <Link to={`/blog/${file.frontmatter?.slug}`} key={index}>
+            <article>
               <h3>{file.frontmatter?.title}</h3>
               <h3>{file.frontmatter?.author}</h3>
               <h3>{file.frontmatter?.date}</h3>
               <h3>{file.frontmatter?.category}</h3>
               <p>{file.excerpt}</p>
             </article>
+            <hr />
           </Link>
         ))}
       </section>
