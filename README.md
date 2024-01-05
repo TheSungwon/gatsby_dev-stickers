@@ -75,14 +75,16 @@ npm install gatsby-source-filesystem
 graphql에서 파일 시스템 가져오기
 ->
 
- <!-- 
- query MyQuery {
+` query MyQuery {
   allFile {
     nodes {
       name
     }
-  }
-} 
+  }`
 -->
 
-http://localhost:8000/\_\_\_graphql
+`http://localhost:8000/___graphql`
+
+npm install gatsby-plugin-mdx gatsby-source-filesystem @mdx-js/react
+mdx설치
+마크다운+react

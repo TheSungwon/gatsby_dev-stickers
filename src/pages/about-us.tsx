@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../components/Layout";
-import Seo from "../components/Seo";
+import Layout from "../componenets/Layout";
+import Seo from "../componenets/Seo";
 
 export default function AboutUs() {
   return (
