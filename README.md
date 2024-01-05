@@ -88,3 +88,19 @@ graphql에서 파일 시스템 가져오기
 npm install gatsby-plugin-mdx gatsby-source-filesystem @mdx-js/react
 mdx설치
 마크다운+react
+
+--
+gatsby-plugin-image
+`npm install gatsby-plugin-image gatsby-plugin-sharp gatsby-source-filesystem gatsby-transformer-sharp`
+
+--
+gatsby-plugin-sharp
+`npm install gatsby-plugin-sharp` 는 image설치하면서 같이 설치 됨
+
+`plugins: [
+  `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
+  ],  `
+세 개 추가
+`https://unsplash.com/ko`
